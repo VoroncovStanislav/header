@@ -95,6 +95,18 @@
         background-color: #002638;
         box-shadow: none;
     }
+
+    .popup .menu .dropdown .dropdown-content a {
+        margin: 0px;
+        padding: 20px 0;
+        text-decoration: none;
+        font-size: 18px;
+        border-radius: 5px;
+        color: rgba(255, 255, 255, 0.7);
+        display: block;
+        /* background: aquamarine; */
+    }
+    
     .popup .menu .dropdown .dropdown-content a:hover,
     .popup .menu .dropdown .dropdown-content a:active,
     .popup .menu .dropdown .dropdown-content a:focus{
