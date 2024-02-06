@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>header</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="myAnimations.css">
+    <link rel="stylesheet" href="adaptive.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <div  id= "myTopnav" class="navbar__wrap">
+                    <div class="hamb">
+                        <div class="hamb__field" id="hamb">
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                        </div>
+                    </div>
+                    <div class="logo">
+                    </div>
+                    <ul class="menu" id="menu">
+                        <li><a href="#advantages">Преимущества</a></li>
+                        <li><a href="#investors">Инвесторам</a></li>
+                        <li><a href="#about_us">Почему мы?</a></li>
+                        <li><a href="#partners">Партнеры</a></li>
+                        <li><a href="#FAQ">Вопрос-ответ</a></li>
+                        <li class="dropdown">
+                            <a class="dropbtn" href="#raznoe">Разное&nbsp;</a>
+                            <ul class="dropdown-content">
+                                <li><a class="dropdown-item1" href="proverka.html">Новости</a></li>
+                                <li><a class="dropdown-item2" href="#">Калькулятор</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <a href="#" class="telefon">8-999-425-03-44</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <ul style="margin-top: 300px;">
+        <li><a href="proverka.html" style="margin-top: 300px;">PROVERKA</a></li>
+    </ul>
+    
+    <div class="popup" id="popup"></div>
+    <script src="test.js"></script>
+    <!-- <script>
+        const link = document.querySelector(".dropdown-content a");
+        link.addEventListener("click", function(event) {
+            event.preventDefault(); // Отменяем действие по умолчанию для ссылки
+            const url = this.getAttribute("href"); // Получаем URL ссылки
+            navigateTo(url); // Выполняем переход на другую страницу
+        });
+    </script> -->
+    <!-- <script>
+        document.querySelector(".dropdown-content").addEventListener("click", function(event) {
+            event.stopPropagation();
+        });
+    </script> -->
+</body>
+</html>
